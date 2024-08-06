@@ -21,7 +21,7 @@ public class CashbackHackServiceTest {
     @Test
 
     public void shouldReturnRemainAfterBoundary() {
-        int amount =1_001;
+        int amount = 1_001;
 
         int actual = service.remain(amount);
         int expected = 999;
